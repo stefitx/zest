@@ -167,6 +167,7 @@
 			"name": "Pizza Vegetariana",
 			"price_small": "39.90",
 			"price_large": "74.90",
+			"tags": ["veg"],
 			"grams_small": 740,
 			"grams_large": 1180,
 			"ingredients": [
@@ -206,8 +207,7 @@
 			  { "name": "Mozzarella", "grams_small": 220, "grams_large": 320 },
 			  { "name": "Ciuperci", "grams_small": 200, "grams_large": 320 },
 			  { "name": "Ulei de măsline", "grams_small": 8, "grams_large": 12 }
-			],
-			"image": "/menu/trufata.webp"
+			]
 		  },
 		  {
 			"name": "Pizza Casei",
@@ -232,7 +232,7 @@
 		"image":[
 			{ "name": "Caesar Chicken",                       "image": "/menu/sendvis-caldo-caesar-chicken.webp" },
 			{ "name": "Crispy Chicken",                       "image": "/menu/sendvis-caldo-crispy-chicken.webp" },
-			{ "name": "Parmiggiana di Melanzane (veg)",       "image": "/menu/sendvis-caldo-parmigiana-di-melanzane.webp" },
+			{ "name": "Parmiggiana di Melanzane",       "image": "/menu/sendvis-caldo-parmigiana-di-melanzane.webp" },
 			{ "name": "Pollo Parmiggiano",                    "image": "/menu/sendvis-caldo-pollo-parmiggiano.webp" }
 		  ],
 		"items": [
