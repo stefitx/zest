@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="mx-auto max-w-5xl p-6">
-      <section className="text-center py-16">
+    <main className="mx-auto max-w-6xl p-6">
+      <section className="rounded-2xl border bg-gradient-to-b from-neutral-50 to-white py-16 text-center">
         <h1 className="text-4xl md:text-5xl font-semibold">
           Focaccia & Pinsa artizanală în Craiova
         </h1>

@@ -3,7 +3,7 @@ import menu from "../../data/menu.json";
 
 export const metadata = {
   title: "Meniu | Focacceria Zest",
-  description: "Meniu focaccia, pinsa & pizza",
+  description: "Meniu focaccia, pinsa & pizza"
 };
 
 type Ingredient = { name: string; grams_small?: number; grams_large?: number };
@@ -17,12 +17,7 @@ type Item = {
   tags?: string[];
   image?: string;
   ingredients?: Ingredient[];
-  options?: {
-    choose?: number;
-    choose_min?: number;
-    choose_max?: number;
-    from: Ingredient[];
-  };
+  options?: { choose?: number; choose_min?: number; choose_max?: number; from: Ingredient[] };
 };
 type Category = { name: string; items: Item[] };
 

@@ -1,18 +1,25 @@
 import "./globals.css";
 import Image from "next/image";
 import Link from "next/link";
+import type { ReactNode } from "react";
 import { Sora } from "next/font/google";
 
 const sora = Sora({ subsets: ["latin"], weight: ["400","500","600","700"] });
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export const metadata = {
+  title: "Focacceria Zest",
+  description: "Focaccia & pinsa artizanală în Craiova"
+};
+
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="ro">
       <body className={`${sora.className} min-h-screen`}>
         <header className="border-b">
           <div className="mx-auto flex max-w-6xl items-center justify-between p-4">
             <Link href="/" className="flex items-center gap-2">
-              <Image src="/logo.png" alt="Focacceria Zest" width={32} height={32} className="rounded-md object-contain" />
+              <Image src="/logo.png" alt="Focacceria Zest" width={32} height={32}
+                     className="rounded-md object-contain" />
               <span className="font-semibold">Focacceria Zest</span>
             </Link>
             <nav className="flex items-center gap-5 text-sm">
