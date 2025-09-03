@@ -38,8 +38,7 @@
 			  { "name": "Sos roșii", "grams_small": 90, "grams_large": 140 },
 			  { "name": "Mozzarella", "grams_small": 180, "grams_large": 260 },
 			  { "name": "Prosciutto cotto", "grams_small": 120, "grams_large": 200 }
-			],
-			"image": "/assets/img/menu/pizza-mortadella-e-pesto.webp"
+			]
 		  },
 		  {
 			"name": "Pizza Romana",
@@ -89,7 +88,7 @@
 			"image": "/assets/img/menu/pizza-prosciutto-crudo.webp"
 		  },
 		  {
-			"name": "Pizza Pepperoni",
+			"name": "Pizza Diavola",
 			"price_small": "42.90",
 			"price_large": "79.90",
 			"grams_small": 660,
@@ -161,7 +160,8 @@
 			  { "name": "Mortadella", "grams_small": 150, "grams_large": 230 },
 			  { "name": "Pesto de fistic", "grams_small": 40, "grams_large": 70 },
 			  { "name": "Piper negru & ulei măsline", "grams_small": 10, "grams_large": 15 }
-			]
+			],
+			"image": "/assets/img/menu/pizza-mortadella-e-pesto.webp"
 		  },
 		  {
 			"name": "Pizza Vegetariana",
